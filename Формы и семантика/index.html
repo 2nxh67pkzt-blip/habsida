@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and semantic HTML</title>
+</head>
+<body>
+    <header>
+        This i the my work for Forms and semantic
+    </header>
+    <nav>
+        <a href="https://html5book.ru/html-html5/" target="_blank">All information was picked i n this cite</a>
+    </nav>
+    <main>
+    <h2>Forms and semantic HTML</h2>
+    <form action="https://google.com/search" method="get">
+        <!-- об теге form: 
+        Это форма для сбора и отправки на сервер информации от пользователей. Не работает без атрибута action
+        у этого тега есть 2 атрибута - это action и method
+        в атрибуте action ты указываешь ссылку, по которой будет искаться информация -->
+         <p>                                                  
+        <label for="search">Search Google</label>
+        <input type="text" id="search"
+        name="q" placeholder="text here :)" required>
+
+   <!-- коротко о тегах: 
+    - значения в атрибутах for и type должны совпадать
+    - атрибут required не позволяет переходить по ссылке формы с пустым полем(переходить на главную страницу гугла в этом случае)
+    - атрибут placeholder дает подсказку в поле ввода
+    - тег input type - задает тип ввода(в данном случае тип ввода текст) -->
+    </p>
+
+    <p>
+        <button type="submit">Search</button>
+    </p>
+    </form>
+    <br><br>
+    <form>
+
+        <p>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Input name" required>
+
+        <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Input email" required>
+        </p>
+        
+        <p>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Input password" required>
+        </p>
+         <!-- Нужно не забывать указывать правильный input type -->
+        <p>
+            <button type="submit">Submit</button>
+        </p>
+        </p>
+    </form>
+    <br><br>
+    <form>
+        <div>Pick a color:</div>
+        <p>
+            <input type="radio" id="blue" name="options" value="blue" checked>
+            <label for="blue">Blue</label>
+        </p>
+        <p>
+            <input type="radio" id="red" name="options" value="blue">
+            <label for="red">Red</label>
+        </p>
+    </form>
+    </main>
+    <footer>
+        <p>
+            <div>Lee Vyacheslav Aleksandrovich</div>
+            <div>010-6870-8317</div>
+        </p>
+
+    </footer>
+</body>
+</html>

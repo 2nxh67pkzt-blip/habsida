@@ -1,0 +1,60 @@
+
+div{
+    font-size: 14px;
+    padding: 0 10px 0 10px;
+    border: 0px ;
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(105, 203, 105);
+    border: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+}
+
+body{
+    background-color: rgb(105, 203, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+input{
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.name{
+    text-align: left;
+}
+
+.subject{
+    text-align: left;
+}
+
+.number{
+    text-align: left;
+}
+
+.email{
+    text-align: left;
+}   
+
+textarea{
+    border: 1px solid gray;
+    border-radius: 4px;
+}   
