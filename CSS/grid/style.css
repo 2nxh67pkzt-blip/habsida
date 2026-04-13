@@ -1,0 +1,45 @@
+* {
+      
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 100px 300px 100px;
+    gap: 10px;
+    padding: 20px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: tomato;
+    border-radius: 10px;
+    
+}
+
+.header {
+    grid-column: 1/4;
+}
+
+.nav-menu {
+    grid-column: 1/4;
+}
+
+.left {
+    grid-column: 1/1;
+}
+
+.middle {
+    grid-column: 2/3;
+}
+
+.right {
+    grid-column: 3/3;
+}
+
+.footer {
+    grid-column: 1/4;
+}
