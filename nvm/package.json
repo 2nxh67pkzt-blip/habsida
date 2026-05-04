@@ -1,0 +1,18 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+"lint-staged": {
+  "*.{js,jsx,ts,tsx,json,css,scss,md}": [
+    "prettier --write",
+    "eslint --fix"
+  ]
+}
